@@ -1,7 +1,7 @@
-//Problem name:Oddities
+//Problem name:Relational Operator
 //Author:Avinash kumar (A_K_0_7)
 //Email Address: aviofficial159357@gmail.com
-//Problem ID:**
+//Problem ID:Uva 11172
 //Description:Multiple test cases + selection
 //Last Changed:26-5-2026
 #include<bits/stdc++.h>
@@ -11,10 +11,11 @@ using namespace std;
 #define fastio ios::sync_with_stdio(0); cin.tie(0);
 
 void solve() {
-    int x; cin>>x;
+    ll a,b; cin>>a>>b;
 
-    if(abs(x)%2==0) cout<<x<<" is even\n";
-    else cout<<x<<" is odd\n";
+    if(a==b)cout<<"=\n";
+    else if(a<b) cout<<"<\n";
+    else cout<<">\n";
     
 }
 
